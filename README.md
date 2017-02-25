@@ -13,23 +13,41 @@ databases using the makeblastdb command in Blast+.
 
 In this script, we will use blastn. BLASTN queries nucleotides against a nucleotide database matching the sequences to a genome. 
 A blast output can several optiions including an alignment list, E-value, and raw scores. All the output options are listed below:
+
 0 = Pairwise
+
 1 = Query-anchored showing identities
+
 2 = Query-anchored no identities
+
 3 = Flat query-anchored showing identities
+
 4 = Flat query-anchored no identities
+
 5 = BLAST XML
+
 6 = Tabular
+
 7 = Tabular with comment lines
+
 8 = Seqalign (Text ASN.1)
+
 9 = Seqalign (Binary ASN.1)
+
 10 = Comma-separated values
+
 11 = BLAST archive (ASN.1)
+
 12 = Seqalign (JSON)
+
 13 = Multiple-file BLAST JSON
+
 14 = Multiple-file BLAST XML2
+
 15 = Single-file BLAST JSON
+
 16 = Single-file BLAST XML2
+
 17 = Sequence Alignment/Map (SAM) 
 
 For more information about using type blastn --help. 
